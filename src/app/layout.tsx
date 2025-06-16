@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js Dashboard",
-  description: "A modern dashboard built with Next.js",
+  title: "Next.js 대시보드",
+  description: "Next.js로 구축된 현대적인 대시보드 애플리케이션",
 };
 
 export default function RootLayout({
@@ -15,24 +15,24 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body className={inter.className}>
         <div className="flex h-screen">
-          {/* Sidebar */}
-          <div className="w-64 bg-gray-800 text-white p-4">
-            <h1 className="text-2xl font-bold mb-8">Dashboard</h1>
+          {/* 사이드바 */}
+          <div className="sidebar w-64">
+            <h1 className="text-2xl font-bold mb-8 text-white">대시보드</h1>
             <nav>
               <ul className="space-y-2">
-                <li><a href="/" className="block p-2 hover:bg-gray-700 rounded">Home</a></li>
-                <li><a href="/dashboard" className="block p-2 hover:bg-gray-700 rounded">Dashboard</a></li>
-                <li><a href="/analytics" className="block p-2 hover:bg-gray-700 rounded">Analytics</a></li>
-                <li><a href="/settings" className="block p-2 hover:bg-gray-700 rounded">Settings</a></li>
+                <li><a href="/" className="sidebar-link">홈</a></li>
+                <li><a href="/dashboard" className="sidebar-link">대시보드</a></li>
+                <li><a href="/analytics" className="sidebar-link">분석</a></li>
+                <li><a href="/settings" className="sidebar-link">설정</a></li>
               </ul>
             </nav>
           </div>
           
-          {/* Main Content */}
-          <div className="flex-1 p-8">
+          {/* 메인 콘텐츠 */}
+          <div className="main-content flex-1 p-8">
             {children}
           </div>
         </div>
