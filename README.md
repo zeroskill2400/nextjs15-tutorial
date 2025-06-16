@@ -9,77 +9,63 @@
 
 ## 📋 학습 로드맵
 
-### **Phase 1: 기초 및 레이아웃** ✅ 완료
-- [x] **Chapter 1**: 프로젝트 초기 설정
-- [x] **Chapter 2**: Tailwind CSS 스타일링
-- [x] **Chapter 3**: App Router 기본 라우팅
-- [x] **Chapter 4**: 기본 레이아웃 및 네비게이션
+### **🎯 Core Curriculum (Next.js 공식 튜토리얼 기반)**
 
-### **Phase 2: 최적화 및 사용자 경험**
-- [ ] **Chapter 5**: 폰트 및 이미지 최적화
-- [ ] **Chapter 6**: 공유 레이아웃 및 중첩 라우팅
-- [ ] **Chapter 7**: Link 컴포넌트와 페이지 네비게이션
-- [ ] **Chapter 8**: 로딩 상태 및 에러 처리
+#### **Phase 1: 시작하기** ✅ 완료  
+- [x] **Chapter 1**: Getting Started - 프로젝트 초기 설정
+- [x] **Chapter 2**: CSS Styling - Tailwind CSS 스타일링  
+- [x] **Chapter 3**: App Router 기본 구조
+- [x] **Chapter 4**: 기본 레이아웃 구성
 
-### **Phase 3: 데이터 및 상태 관리**
-- [ ] **Chapter 9**: 데이터베이스 설정 (PostgreSQL + Prisma)
-- [ ] **Chapter 10**: Server Components vs Client Components
-- [ ] **Chapter 11**: 데이터 페칭 (SSG, SSR, ISR)
-- [ ] **Chapter 12**: API Routes 구현
+#### **Phase 2: 최적화 및 네비게이션**
+- [ ] **Chapter 5**: Optimizing Fonts and Images - 폰트/이미지 최적화
+- [ ] **Chapter 6**: Creating Layouts and Pages - 공유 레이아웃 및 중첩 라우팅  
+- [ ] **Chapter 7**: Navigating Between Pages - Link 컴포넌트 네비게이션
 
-### **Phase 4: 고급 렌더링 기법**
-- [ ] **Chapter 13**: Static vs Dynamic 렌더링
-- [ ] **Chapter 14**: Streaming 및 Suspense
-- [ ] **Chapter 15**: Partial Prerendering (PPR)
-- [ ] **Chapter 16**: 캐싱 전략
+#### **Phase 3: 데이터베이스 및 페칭**
+- [ ] **Chapter 8**: Setting Up Your Database - Supabase 설정 및 테이블 생성
+- [ ] **Chapter 9**: Fetching Data - Supabase Client로 데이터 페칭
+- [ ] **Chapter 10**: Static and Dynamic Rendering - 렌더링 방식 이해
 
-### **Phase 5: 검색 및 상호작용**
-- [ ] **Chapter 17**: 검색 기능 구현
-- [ ] **Chapter 18**: 페이지네이션
-- [ ] **Chapter 19**: Server Actions
-- [ ] **Chapter 20**: Optimistic Updates
+#### **Phase 4: 고급 렌더링**  
+- [ ] **Chapter 11**: Streaming - 스트리밍 및 로딩 UI
+- [ ] **Chapter 12**: Partial Prerendering - PPR 조기 체험
+- [ ] **Chapter 13**: Adding Search and Pagination - Supabase로 검색 및 페이지네이션
 
-### **Phase 6: 사용자 인증 및 보안**
-- [ ] **Chapter 21**: NextAuth.js 설정
-- [ ] **Chapter 22**: 소셜 로그인 (Google, GitHub)
-- [ ] **Chapter 23**: 사용자 권한 관리
-- [ ] **Chapter 24**: 미들웨어 및 보안
+#### **Phase 5: 데이터 변경 및 에러 처리**
+- [ ] **Chapter 14**: Mutating Data - Supabase로 데이터 변경 (CRUD)
+- [ ] **Chapter 15**: Handling Error - 에러 처리 및 404 페이지
+- [ ] **Chapter 16**: Improving Accessibility - 폼 검증 및 접근성
 
-### **Phase 7: 실시간 기능**
-- [ ] **Chapter 25**: WebSocket 실시간 채팅
-- [ ] **Chapter 26**: 실시간 알림 시스템
-- [ ] **Chapter 27**: 실시간 협업 기능
-- [ ] **Chapter 28**: Socket.io 고급 활용
+#### **Phase 6: 인증 및 메타데이터**
+- [ ] **Chapter 17**: Adding Authentication - Supabase Auth 구현
+- [ ] **Chapter 18**: Adding Metadata - SEO 및 메타데이터 최적화
 
-### **Phase 8: 결제 시스템**
-- [ ] **Chapter 29**: Stripe 결제 통합
-- [ ] **Chapter 30**: 구독 관리 시스템
-- [ ] **Chapter 31**: 결제 내역 및 영수증
-- [ ] **Chapter 32**: 결제 보안
+---
 
-### **Phase 9: 고급 기능**
-- [ ] **Chapter 33**: 파일 업로드 (AWS S3)
-- [ ] **Chapter 34**: 이메일 시스템 (Resend/Nodemailer)
-- [ ] **Chapter 35**: 다국어 지원 (i18n)
-- [ ] **Chapter 36**: PWA 구현
+### **🚀 확장 커리큘럼 (실무 고급 기능)**
 
-### **Phase 10: 성능 및 모니터링**
-- [ ] **Chapter 37**: 성능 최적화
-- [ ] **Chapter 38**: SEO 최적화
-- [ ] **Chapter 39**: 분석 및 모니터링
-- [ ] **Chapter 40**: 에러 추적 (Sentry)
+#### **Phase 7: 실시간 기능**
+- [ ] **Chapter 19**: Supabase Realtime 실시간 채팅
+- [ ] **Chapter 20**: 실시간 알림 시스템  
+- [ ] **Chapter 21**: 실시간 협업 기능 (Presence)
 
-### **Phase 11: 테스팅 및 품질**
-- [ ] **Chapter 41**: 단위 테스트 (Jest)
-- [ ] **Chapter 42**: 통합 테스트 (Playwright)
-- [ ] **Chapter 43**: E2E 테스트
-- [ ] **Chapter 44**: 코드 품질 (ESLint, Prettier)
+#### **Phase 8: 결제 시스템**
+- [ ] **Chapter 22**: Stripe 결제 통합
+- [ ] **Chapter 23**: 구독 관리 시스템 (Supabase + Stripe)
+- [ ] **Chapter 24**: 결제 내역 관리
 
-### **Phase 12: 배포 및 운영**
-- [ ] **Chapter 45**: Vercel 배포
-- [ ] **Chapter 46**: Docker 컨테이너화
-- [ ] **Chapter 47**: CI/CD 파이프라인
-- [ ] **Chapter 48**: 모니터링 및 로깅
+#### **Phase 9: 고급 기능**
+- [ ] **Chapter 25**: Supabase Storage 파일 업로드
+- [ ] **Chapter 26**: 이메일 시스템 (Resend + Supabase)
+- [ ] **Chapter 27**: 다국어 지원 (i18n)
+- [ ] **Chapter 28**: PWA 구현
+
+#### **Phase 10: DevOps & 배포**
+- [ ] **Chapter 29**: Docker 컨테이너화
+- [ ] **Chapter 30**: CI/CD 파이프라인  
+- [ ] **Chapter 31**: Supabase 모니터링 및 로깅
+- [ ] **Chapter 32**: 성능 측정 및 최적화
 
 ## 🛠 기술 스택
 
@@ -87,23 +73,22 @@
 - **프레임워크**: Next.js 15
 - **언어**: TypeScript
 - **스타일링**: Tailwind CSS
-- **상태관리**: Zustand / React Query
+- **상태관리**: Zustand / TanStack Query
 
-### **백엔드**
-- **데이터베이스**: PostgreSQL
-- **ORM**: Prisma
-- **인증**: NextAuth.js
+### **백엔드 (Supabase)**
+- **데이터베이스**: Supabase (PostgreSQL)
+- **인증**: Supabase Auth
+- **실시간**: Supabase Realtime
+- **스토리지**: Supabase Storage
+- **Edge Functions**: Supabase Functions
+
+### **결제 & 외부 서비스**
 - **결제**: Stripe
-
-### **실시간**
-- **WebSocket**: Socket.io
-- **실시간 DB**: Supabase Realtime
+- **이메일**: Resend
 
 ### **인프라**
 - **배포**: Vercel
-- **스토리지**: AWS S3
-- **이메일**: Resend
-- **모니터링**: Vercel Analytics + Sentry
+- **모니터링**: Vercel Analytics + Supabase Dashboard
 
 ## 🚀 현재 진행 상황
 
